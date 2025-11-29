@@ -1,38 +1,150 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
+		"name": "Mondstadt",
+		"leaderName": "Jean",
+		"adjective": ["Mondstadian"],
+		"startBias": ["Plain"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "May the wind lead!",
+		"startIntroPart2": "Oh Jean may you lead your People into times of freedom like our great ancestor Vanessa once did. Show the world that only through freedom a Nation can thrive.",
+		
+		"declaringWar": "We will make sure to put an end to your tyranny!",
+		"attacked": "May the Anemo Archon protect us.",
+		"defeated": "What a tradgedy to see our Nation fall. But you won´t extinguish the wind!",
+		"introduction": "Greetings! Take a seat. We hope for a fair partnership that will aid our people.",
+		
+		"neutralHello": "Pleased to be meeting you.",
+		"neutralLetsHearIt": ["Elaborate.","What do you say?","You may begin."],
+		"neutralNo": ["We cannot do that.","Its not in the Interest of our people.","We must pass."],
+		"neutralYes": ["Very well!","Sure thing!","That is a good opportunity."],
+
+		"hateHello": "What is your deal?",
+		"hateLetsHearIt": ["Speak!","Lets not waist time...","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing on that!","Our people deserve better!"],
+		"hateYes": ["I guess it workes.","That is good enough for us.","Very well..."],
+		
+		"afterPeace": "The people will celebrate this peace.",
+		"tradeRequest": "We hope this trade is to your likings.",
+
+		"outerColor": [48,242,201],
+		"innerColor": [137,240,225],
+		"uniqueName": "Way of the Wind",
+		"uniques": ["Free [Great Artist] appears <upon discovering [Drama and Poetry] technology>", "[Great Artist] is earned [50]% faster"],
+		"cities": ["Mondstadt","Windrise","Dornman Port","Dawn Winery","Springvale","Wolvendom","Brightcrown","Dadaupa Gorge","Cape Oath",
+			"Starsnatch Cliff","Stormbearer Point","Windwail Highland","Windwail Lowland","Galesong Hill","Starfell Valley","Wyrmrest Valley",
+			"Starglow Cavern","Vanessa Town"]
+		"spyNames": ["Brook", "Sara", "Timmie", "Timaeus", "Wagner", "Sharp"] 
+	},
+	{
+		"name": "Liyue",
+		"leaderName": "Ningguang",
+		"adjective": ["Liyuan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Oh Ningguang.",
+		"startIntroPart2": "May your wise words and carefull transactions bring this Nation to great phrosperity",
+		
+		"declaringWar": "The resources whould do the world more good in our hands!",
+		"attacked": "I sense your greed...",
+		"defeated": "Very well you Barbarian. Sign here and we shall be yours.",
+		"introduction": "With a few contracts we shall strengthen our bond.",
+		
+		"neutralHello": "Please come inside.",
+		"neutralLetsHearIt": ["Elaborate.","What do you think?","Please go on."],
+		"neutralNo": ["We cannot agree to those Terms.","Its not in our Interest.","We will look for a better opportunity."],
+		"neutralYes": ["A deal is a deal.","A deal was made!","That is a very good opportunity."],
+
+		"hateHello": "Do you belong im these halls?",
+		"hateLetsHearIt": ["Speak!","Lets not waist time...","Make it quick."],
+		"hateNo": ["That is not possible!","We are not agreeing on that!","Our people deserve better!"],
+		"hateYes": ["Agreeable...","I thought you could not think of that.","Let´s just sign it."],
+		
+		"afterPeace": "This should cut costs and workforce.",
+		"tradeRequest": "Only a fool whould ignore this.",
+
+		"outerColor": [204,179,61],
+		"innerColor": [217,201,117],
+		"uniqueName": "Ancient Contract",
+		"uniques": ["Free [Great Merchant] appears <upon discovering [Banking] technology>", "[Great Merchant] is earned [25]% faster", "Instantly provides [1][Gems]"],
+		"cities": ["Liyue","Luhua","Mingyun Village","Qingce Village","Jueyun Karst","Nantianmen","Dunyu","Xuanlian","Qiaoying Village",
+			"Yilong Wharf","Chenyu Vale","Lisha","Minlin","Qiongji","Bishui Plain","Sal Terrae",
+			"Guyun","Cuijue Slope", "Tianqiu Valley"]
+		"spyNames": ["Master Zhang", "Chef Mao", "Bao´er", "Madame Ping", "Echo", "Fan Er`ye"] 
+	}
+	{
+		"name": "Inazuma",
+		"leaderName": "Raiden Shogun",
+		"adjective": ["Inazumian"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Coast]"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "We shall follow the Almighty Narukami into greatness!",
+		"startIntroPart2": "May your lightning protect us from our enemies and let your abilities grow this Nation!",
+		
+		"declaringWar": "For the evil you brought to this world you shall be burned by our lightning!",
+		"attacked": "You are a fool to think you can even set foot on inazumian Soil!",
+		"defeated": "How could this have happened? How can Eternity end?",
+		"introduction": "Hello, I hope this meeting goes well.",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Elaborate.","What do you say?","Go on."],
+		"neutralNo": ["We cannot do that.","This will briddle our eternity","I must refuse."],
+		"neutralYes": ["Very well!","Sure thing!","That is a good opportunity."],
+
+		"hateHello": "Do you wish for my wrath?",
+		"hateLetsHearIt": ["Speak!","Lets not waist time...","Let´s get this over with."],
+		"hateNo": ["That is not possible!","Unthinkable!","We whould rather starve!"],
+		"hateYes": ["I guess it workes.","It´s not like it whould hurt our eternity.","Very well..."],
+		
+		"afterPeace": "The storm is over...",
+		"tradeRequest": "Let us start a shipment, yes?",
+
+		"outerColor": [129,18,199],
+		"innerColor": [198, 96, 247],
+		"uniqueName": "Path of Eternity",
+		"uniques": ["Earn [100]% of killed [Military] unit´s [strengh] as [culture]", "[+1 Happiness] from every [Temple]"],
+		"cities": ["Inazuma City","Narukami","Seirai","Tsurumi","Ritou","Konda Village","Araumi","Koseki Village","Hiraumi",
+			"Autake Plains","Shirikoro Peak","Tatarasuna","Kujou","Fujitou","Higi Village","Jakotsu",
+			"Amakane","Chinju"]
+		"spyNames": ["Kichiboushi", "Akira", "Futaba", "Inagi Hotomi", "Eita", "Chise"] 
+	},
+	{
+		"name": "Sumeru",
+		"leaderName": "Nahida",
+		"adjective": ["Sumerian"],
+		"startBias": ["Avoid [Desert]", "[Jungle]"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "Dear lesser lord Kusanali",
+		"startIntroPart2": "We are deeply sorry for your year long emprisonment. We hope that your Knowlege will bring us into an bright and wonderfull future under your rule. ",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "This is not good but necessary.",
+		"attacked": "I hope we can forgive you one day...",
+		"defeated": "You can burn our books and demolish our houses but our seeking of knowlege can never be surpressed!",
+		"introduction": "Good morning may I fetch you a tea?",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "My doors are wide open.",
+		"neutralLetsHearIt": ["Elaborate.","What do you think?","Please continue."],
+		"neutralNo": ["There could be smarter deals.","I am sorry but no.","We will look for a better opportunity."],
+		"neutralYes": ["This opens many new doors.","This should go into finance study books!","That is a very good opportunity."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateHello": "You make me uncomftable",
+		"hateLetsHearIt": ["What could you want?","Lets not waist time...","Make it quick."],
+		"hateNo": ["That is not possible!","We are not agreeing on that!","You could not come up with anything better?"],
+		"hateYes": ["I guess it whould be dumb to say no.","I think I have to agree.","Let´s just sign it."],
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"afterPeace": "Finally this bloodshed ends.",
+		"tradeRequest": "This offer will improve our wealth.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [41,199,0],
+		"innerColor": [157,255,128],
+		"uniqueName": "Hear my knowledge",
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Education] technology>", "HIER TECHNOLOGIE BEI VERVOLLSTÄNDIGTEM KULTURSTRANG"],
+		"cities": ["Sumeru City","Alcazarzaray","Gandharva Ville","Ormos","Dahri","Yasna","Pardis Dhyai","Apam Woods","Vimara Village",
+			"Ghanda Hill","Mawtiyima","Ardravi Valley","Devantaka","Avidya","Vissudha Field","Lokapala",
+			"Ashavan","Rukkadhevata City", "Kusanali Town"]
+		"spyNames": ["Abdo", "Anaka", "Bita", "Darya", "Babel", "Amal"] 
 	}
 ]
