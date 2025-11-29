@@ -3,7 +3,7 @@
 		"name": "Mondstadt",
 		"leaderName": "Jean",
 		"adjective": ["Mondstadian"],
-		"startBias": ["Plain"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "May the wind lead!",
@@ -30,7 +30,7 @@
 		"outerColor": [48,242,201],
 		"innerColor": [137,240,225],
 		"uniqueName": "Way of the Wind",
-		"uniques": ["Free [Great Artist] appears <upon discovering [Drama and Poetry] technology>", "[Great Artist] is earned [50]% faster"],
+		"uniques": ["Free [Great Artist] appears <upon discovering [Drama and Poetry] technology>", "[Great Artist] is earned [50]% faster", "Gain a free [Cathedral] [in Capital]"],
 		"cities": ["Mondstadt","Windrise","Dornman Port","Dawn Winery","Springvale","Wolvendom","Brightcrown","Dadaupa Gorge","Cape Oath",
 			"Starsnatch Cliff","Stormbearer Point","Windwail Highland","Windwail Lowland","Galesong Hill","Starfell Valley","Wyrmrest Valley",
 			"Starglow Cavern","Vanessa Town"]
@@ -83,7 +83,7 @@
 		"startIntroPart1": "We shall follow the Almighty Narukami into greatness!",
 		"startIntroPart2": "May your lightning protect us from our enemies and let your abilities grow this Nation!",
 		
-		"declaringWar": "For the evil you brought to this world you shall be burned by our lightning!",
+		"declaringWar": "For the evil you brought to this world you shall be struck by our lightning!",
 		"attacked": "You are a fool to think you can even set foot on inazumian Soil!",
 		"defeated": "How could this have happened? How can Eternity end?",
 		"introduction": "Hello, I hope this meeting goes well.",
@@ -102,9 +102,9 @@
 		"tradeRequest": "Let us start a shipment, yes?",
 
 		"outerColor": [129,18,199],
-		"innerColor": [198, 96, 247],
+		"innerColor": [198,96,247],
 		"uniqueName": "Path of Eternity",
-		"uniques": ["Earn [100]% of killed [Military] unit´s [strengh] as [culture]", "[+1 Happiness] from every [Temple]"],
+		"uniques": ["Earn [100]% of killed [Military] unit´s [strengh] as [culture]", "[+1 Happiness] from every [Temple]", "[+1 Faith] [in all cities]"],
 		"cities": ["Inazuma City","Narukami","Seirai","Tsurumi","Ritou","Konda Village","Araumi","Koseki Village","Hiraumi",
 			"Autake Plains","Shirikoro Peak","Tatarasuna","Kujou","Fujitou","Higi Village","Jakotsu",
 			"Amakane","Chinju"]
@@ -114,7 +114,7 @@
 		"name": "Sumeru",
 		"leaderName": "Nahida",
 		"adjective": ["Sumerian"],
-		"startBias": ["Avoid [Desert]", "[Jungle]"],
+		"startBias": ["Avoid [Desert]", "Jungle"],
 		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "Dear lesser lord Kusanali",
@@ -141,10 +141,158 @@
 		"outerColor": [41,199,0],
 		"innerColor": [157,255,128],
 		"uniqueName": "Hear my knowledge",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Education] technology>", "HIER TECHNOLOGIE BEI VERVOLLSTÄNDIGTEM KULTURSTRANG"],
+		"uniques": ["Free Technology <upon discovering [Education] technology>", "Free [Great Scientist] appears per [1] social policies adopted"],
 		"cities": ["Sumeru City","Alcazarzaray","Gandharva Ville","Ormos","Dahri","Yasna","Pardis Dhyai","Apam Woods","Vimara Village",
 			"Ghanda Hill","Mawtiyima","Ardravi Valley","Devantaka","Avidya","Vissudha Field","Lokapala",
 			"Ashavan","Rukkadhevata City", "Kusanali Town"]
 		"spyNames": ["Abdo", "Anaka", "Bita", "Darya", "Babel", "Amal"] 
+	}
+	{
+		"name": "Fontaine",
+		"leaderName": "Furina de Fontaine",
+		"adjective": ["Fontainian"],
+		"startBias": ["Coast", "Avoid [Jungle]"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Furina de Fontain lead our Nation through Justice and we shall grow unstoppable!",
+		"startIntroPart2": "Oh Furina great Archon the World seeks your greatness, so step onto the stage and show us the way to greatness!",
+		
+		"declaringWar": "It is time to enter the dilemma! Be prepared for war!",
+		"attacked": "This is not how it is supposed to go! How dare you flip the script!",
+		"defeated": "Oh how unexpected this Denoument was... But I guess the curtains are closed now.",
+		"introduction": "Greetings. Be welcomed to our nation. But don´t go agaist the law because I wont stop my judgement even at other Leaders!",
+		
+		"neutralHello": "Pleased to be meeting you.",
+		"neutralLetsHearIt": ["Elaborate.","What do you say?","You may begin."],
+		"neutralNo": ["We cannot do that.","Its not in the Interest of our people.","I shall pass."],
+		"neutralYes": ["Very well!","Splendit!","That is a good opportunity."],
+
+		"hateHello": "Are you supposed to be here?",
+		"hateLetsHearIt": ["Speak!","Lets not waist time...","Go on. I don´t have mutch time."],
+		"hateNo": ["That is not possible!","We are not agreeing on that!","Our people deserve better!"],
+		"hateYes": ["I guess this will work.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Finally this act is over.",
+		"tradeRequest": "We hope this trade is to your likings.",
+
+		"outerColor": [38,88,212],
+		"innerColor": [62,167,230],
+		"uniqueName": "Court of Justice",
+		"uniques": ["[+100]% unhappiness [in all Coastal cities]", "[+10]% Science is earned <upon discovering [Industrialization] technology>", "Gain a free [Courthouse] [in all cities]"],
+		"cities": ["Court of Fontaine","Fontaine Research Institute","Lucine","Lumidouce","Bellau Region","Nostoi Region","Beryl Region","Poisson","Elynas",
+			"Fort Charybdis","Petrichor","Liffey Region","Erinnyes Forest","Morte Region","Initium Iani","Hortus Euergetis",
+			"Alta Semita","Clivus Capitolinus"]
+		"spyNames": ["Mary-Ann", "Alphonse", "Lepine-Pauline", "Kiara", "Maurice", "Garcia"] 
+	},
+	{
+		"name": "Natlan",
+		"leaderName": "Mavuika",
+		"adjective": ["Natlanese"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Oh great Mavuika. You have awoken once more to help us to make this nation great and find ways out of our misery",
+		"startIntroPart2": "We hope that the times can turn to the better under your rule.",
+		
+		"declaringWar": "To save this nation we will have to destroy you!",
+		"attacked": "We will do everything to protect us from you!.",
+		"defeated": "With Natlans fall the world can only fall to the Abyss.",
+		"introduction": "Let us work together, shall we?",
+		
+		"neutralHello": "Welcome.",
+		"neutralLetsHearIt": ["Elaborate.","What do you think?","Please go on."],
+		"neutralNo": ["We cannot agree to those Terms.","Its not in our Interest.","This is a bad deal."],
+		"neutralYes": ["A deal is a deal.","A deal was made!","That is a very good opportunity."],
+
+		"hateHello": "Do you think you can just barge in?",
+		"hateLetsHearIt": ["Speak!","Lets not waist time...","Make it quick."],
+		"hateNo": ["That is not possible!","We are not agreeing on that!","Our people deserve better!"],
+		"hateYes": ["Agreeable...","Very well.","Let´s just shake hands."],
+		
+		"afterPeace": "Finally times of peace.",
+		"tradeRequest": "I think these terms are good.",
+
+		"outerColor": [191,21,10],
+		"innerColor": [255,90,84],
+		"uniqueName": "Ode of Resurrection",
+		"uniques": ["[+50]% HP when healing", "Gain a free [Follower] belief <upon discovering [Civil Service] technology>", "May buy [Melee] units with [faith] for [2] times their normal Production cost"],
+		"cities": ["Stadium of the Sacred Flame","Basin of Unnumbered Flames","Flower-Feather Clan","Masters of the Nightwind","Collective of Plenty","People of the Springs","Scions of Canopy","Children of Echoes","Tepeacac Rise",
+			"Fallingstar Fields","Tecoloapan","Quahuacan","Coatepec","Huitztli","Huha Hill","Guiztli Ridge",
+			"Atocpan","Tequemecan", "Tezcatepetonco Range"]
+		"spyNames": ["Achupalla", "Allpa", "Besuci", "Hoturoa", "Kalane", "Oia"] 
+	}
+	{
+		"name": "Snezhnaya",
+		"leaderName": "Tsaritsa",
+		"adjective": ["Snezhnaian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Great Tsaritsa lead our nation and industries!",
+		"startIntroPart2": "We will dominate the world in all ways thanks to your awesome rule. We will follow you at all times!",
+		
+		"declaringWar": "Don´t try to stand in our way.",
+		"attacked": "You think you can defeat the Fatui? Pathetic!",
+		"defeated": "Impossible!",
+		"introduction": "Hello, I hope this meeting goes well.",
+		
+		"neutralHello": "Hello Friend.",
+		"neutralLetsHearIt": ["Elaborate.","What do you say?","Go on."],
+		"neutralNo": ["We cannot do that.","This is not in our Interest.","I must refuse."],
+		"neutralYes": ["Very well!","Sure thing!","That is a good opportunity."],
+
+		"hateHello": "Do you wish to be executed?",
+		"hateLetsHearIt": ["Speak!","Say something...","Let´s get this over with."],
+		"hateNo": ["That is not possible!","Unthinkable!","What is in it for us?"],
+		"hateYes": ["I guess it workes.","Well this is of use for us.","Very well..."],
+		
+		"afterPeace": "Be happy about it.",
+		"tradeRequest": "Look into it.",
+
+		"outerColor": [166,231,255],
+		"innerColor": [214,237,255],
+		"uniqueName": "Way of the Fatui",
+		"uniques": ["Earn [100]% of killed [Military] unit´s [strengh] as [Gold]", "[+30]% Production when constructing [Melee] units [in all cities]", "Free [Great General] appears per [1] social policies adopted"],
+		"cities": ["Shnezhnograd","Morepesok","Novokitezhgrad","Belovodye","Lempo","Paha","Hiisi","Barrowmoss Barrens","Nasha Town",
+			"Kratti","Frostgrad","Kryo-Village","Experimental Design Bureau","Little Snezhnaya","Harbinger Settelment","Tradsok",
+			"Tradograd","Silent-Plain-City"]
+		"spyNames": ["Ivanovich", "Katarina", "Cathrine", "Rezanov", "Teucer", "Solnev"] 
+	},
+	{
+		"name": "Kingdom of Deshret",
+		"leaderName": "King Deshret",
+		"adjective": ["Desert Folk"],
+		"startBias": ["Desert", "avoid [coast]"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Almighty king Deshret we will follow you until the end of time!",
+		"startIntroPart2": "We hope your endless discovories of technologie and your constant seek of knowledge will lead us to unreachable greatness! ",
+		
+		"declaringWar": "You stand in our way, little one",
+		"attacked": "How dare you challenge me King deshret? Be prepared for humiliation!",
+		"defeated": "How could our nation have fallen? Where we not careful enough?",
+		"introduction": "Hello are you interested in a chat? Feast your eyes on my monuments!",
+		
+		"neutralHello": "I welcome you.",
+		"neutralLetsHearIt": ["Elaborate.","What do you think?","Please continue."],
+		"neutralNo": ["There could be smarter deals.","Never!","We will look for a better opportunity."],
+		"neutralYes": ["This opens many new doors.","This is an interesting trade.","That is a very good opportunity."],
+
+		"hateHello": "You make me sick",
+		"hateLetsHearIt": ["What could you want?","Lets not waist time...","Make it quick."],
+		"hateNo": ["That is not possible!","We are not agreeing on that!","You could not come up with anything better?"],
+		"hateYes": ["I guess it whould be dumb to say no.","I think I might have to agree.","Let´s just agree for once."],
+		
+		"afterPeace": "Quick repair the buildings!",
+		"tradeRequest": "This trade should allow further research",
+
+		"outerColor": [212,190,61],
+		"innerColor": [252,238,151],
+		"uniqueName": "Dekret of King Deshret",
+		"uniques": ["Gain a free [Library] [in all cities]", "[+100]% [Faith] in the Capital"],
+		"cities": ["The Mausoleum of King Deshret","Khemenu Temple","The Dune of Elusion","The Dune of Magma","The Dune of Carouses","Safhe Shatranj","Land of Setekh","Khaj-Nisut","Aaru Village",
+			"Dar al-Shifa","Sobek Oasis","Panjvahe","Asipattravana","Gavireh Lajavard","Realm of Farakhert","Hadramaveth",
+			"Abdju","Valley of Dahri", "Al-Azif"]
+		"spyNames": ["Liloupar", "Jeht", "Bashar", "Anqa", "Thoth", "Aderfi"] 
 	}
 ]
