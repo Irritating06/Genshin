@@ -72,7 +72,7 @@
 			"Yilong Wharf","Chenyu Vale","Lisha","Minlin","Qiongji","Bishui Plain","Sal Terrae",
 			"Guyun","Cuijue Slope", "Tianqiu Valley"]
 		"spyNames": ["Master Zhang", "Chef Mao", "Bao´er", "Madame Ping", "Echo", "Fan Er`ye"] 
-	}
+	},
 	{
 		"name": "Inazuma",
 		"leaderName": "Raiden Shogun",
@@ -146,7 +146,7 @@
 			"Ghanda Hill","Mawtiyima","Ardravi Valley","Devantaka","Avidya","Vissudha Field","Lokapala",
 			"Ashavan","Rukkadhevata City", "Kusanali Town"]
 		"spyNames": ["Abdo", "Anaka", "Bita", "Darya", "Babel", "Amal"] 
-	}
+	},
 	{
 		"name": "Fontaine",
 		"leaderName": "Furina de Fontaine",
@@ -220,7 +220,7 @@
 			"Fallingstar Fields","Tecoloapan","Quahuacan","Coatepec","Huitztli","Huha Hill","Guiztli Ridge",
 			"Atocpan","Tequemecan", "Tezcatepetonco Range"]
 		"spyNames": ["Achupalla", "Allpa", "Besuci", "Hoturoa", "Kalane", "Oia"] 
-	}
+	},
 	{
 		"name": "Snezhnaya",
 		"leaderName": "Tsaritsa",
