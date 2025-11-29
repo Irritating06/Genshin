@@ -141,7 +141,7 @@
 		"outerColor": [41,199,0],
 		"innerColor": [157,255,128],
 		"uniqueName": "Hear my knowledge",
-		"uniques": ["Free Technology <upon discovering [Education] technology>"],
+		"uniques": ["Free Technology <upon discovering [Education] technology>", "Free [Great Scientist] appears per [1] social policies adopted"],
 		"cities": ["Sumeru City","Alcazarzaray","Gandharva Ville","Ormos","Dahri","Yasna","Pardis Dhyai","Apam Woods","Vimara Village",
 			"Ghanda Hill","Mawtiyima","Ardravi Valley","Devantaka","Avidya","Vissudha Field","Lokapala",
 			"Ashavan","Rukkadhevata City", "Kusanali Town"]
