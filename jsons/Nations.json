@@ -67,7 +67,7 @@
 		"outerColor": [204,179,61],
 		"innerColor": [217,201,117],
 		"uniqueName": "Ancient Contract",
-		"uniques": ["Free [Great Merchant] appears <upon discovering [Banking] technology>", "[Great Merchant] is earned [25]% faster"],
+		"uniques": ["Free [Great Merchant] appears <upon discovering [Banking] technology>", "[Great Merchant] is earned [25]% faster", "Instantly provides [1][Gems]"],
 		"cities": ["Liyue","Luhua","Mingyun Village","Qingce Village","Jueyun Karst","Nantianmen","Dunyu","Xuanlian","Qiaoying Village",
 			"Yilong Wharf","Chenyu Vale","Lisha","Minlin","Qiongji","Bishui Plain","Sal Terrae",
 			"Guyun","Cuijue Slope", "Tianqiu Valley"]
