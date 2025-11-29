@@ -1,25 +1,59 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Perfected Windmill",
+		"replaces": "Windmill",
+		"uniqueTo": "Mondstadt",
+		"cost": 260,
+		"faith": 2,
+		"culture": 2,
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 3,
+		"requiredTech": "Economics"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Akasha Terminal",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Sumeru",
+		"culture": 1,
+		"science": 3,
+		"percentStatBonus": {"science": 33},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Opera Epiclese",
+		"cost": 125,
+		"replaces": "Hermitage",
+		"uniqueTo": "Fontaine",
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"happiness": 5,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Architecture"
+	},
+	{
+        "name": "Maison Gardiennage",
+        "cost": 160,
+		"replaces": "Constabulary",
+		"uniqueTo": "Fontaine",
+        "maintenance": 1,
+		"culture": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["[+1 Happiness] per [2] population [in this city]"],
+        "requiredTech": "Banking"
+    },
+	{
+		"name": "Aquabus",
+		"uniqueTo": "Fontaine",
+		"cost": 120,
+		"culture": 2,
+		"food": 4,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 3,
+		"requiredTech": "Construction"
+	},
 ]
