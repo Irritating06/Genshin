@@ -67,7 +67,7 @@
 		"outerColor": [204,179,61],
 		"innerColor": [217,201,117],
 		"uniqueName": "Ancient Contract",
-		"uniques": ["Free [Great Merchant] appears <upon discovering [Banking] technology>", "[Great Merchant] is earned [25]% faster", "Instantly provides [1][Gems]"],
+		"uniques": ["Free [Great Merchant] appears <upon discovering [Banking] technology>", "[Great Merchant] is earned [25]% faster"],
 		"cities": ["Liyue","Luhua","Mingyun Village","Qingce Village","Jueyun Karst","Nantianmen","Dunyu","Xuanlian","Qiaoying Village",
 			"Yilong Wharf","Chenyu Vale","Lisha","Minlin","Qiongji","Bishui Plain","Sal Terrae",
 			"Guyun","Cuijue Slope", "Tianqiu Valley"]
@@ -141,7 +141,7 @@
 		"outerColor": [41,199,0],
 		"innerColor": [157,255,128],
 		"uniqueName": "Hear my knowledge",
-		"uniques": ["Free Technology <upon discovering [Education] technology>", "Free [Great Scientist] appears per [1] social policies adopted"],
+		"uniques": ["Free Technology <upon discovering [Education] technology>"],
 		"cities": ["Sumeru City","Alcazarzaray","Gandharva Ville","Ormos","Dahri","Yasna","Pardis Dhyai","Apam Woods","Vimara Village",
 			"Ghanda Hill","Mawtiyima","Ardravi Valley","Devantaka","Avidya","Vissudha Field","Lokapala",
 			"Ashavan","Rukkadhevata City", "Kusanali Town"]
