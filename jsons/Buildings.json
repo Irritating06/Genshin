@@ -82,13 +82,104 @@
 	{
 		"name": "Local Pyramid",
 		"replaces": "Temple",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Kingdom of Deshret",
 		"maintenance": 0,
-		"uniques": ["[+100]% Gold given to enemy if city is captured"],
+		"uniques": ["[+75]% Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Favonius Quarters",
+		"replaces": "Castle",
+		"uniqueTo": "Mondstadt",
+		"cityStrength": 7,
+		"cityHealth": 20,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Alchemy Lab",
+		"science": 4,
+		"uniqueTo": "Mondstadt",
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 1,
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Wind Turbine",
+		"production": 5,
+		"uniqueTo": "Mondstadt",
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Palace Garden",
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"uniqueTo": "Sumeru",
+		"science": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Arena of Flames",
+		"uniqueTo": "Natlan",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "New [Military] units start with [15] XP [in this city]"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Great Liyue´n Harbor",
+		"uniqueTo": "Liyue",
+		"cost": 150,
+		"happieness": 1,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Iron Working",
+		"quote": "Trade is ruled by those that focus on the routes."
+	},
+	{
+		"name": "Fatui Recruiting Center",
+		"uniqueTo": "Snezhnaya",
+		"hurryCostModifier": 0,
+		"maintenance": 2,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "[+15]% Production when constructing [Melee] units [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Hot Springs",
+		"cost": 100,
+		"happieness": 1,
+		"uniqueTo": "Natlan",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", "Connects trade routes over water", "Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Huge Research Institute",
+		"uniqueTo": "Snezhnaya",
+		"production": 1,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+75]%"],
+		"requiredTech": "Architecture",
+		"quote": "This is a place where the god's gaze does not fall. -Columbina"
 	},
 ]
