@@ -30,7 +30,7 @@
 		"uniqueTo": "Fontaine",
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
-		"happiness": 5,
+		"happiness": 4,
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Architecture"
@@ -55,5 +55,40 @@
 		"specialistSlots": {"Engineer": 1},
 		"maintenance": 3,
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Fort Meropide",
+		"culture": 1,
+		"production": 1,
+		"isWonder": true,
+		"replaces": "Forbidden Palace",
+		"uniqueTo": "Fontaine",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[-15]% Unhappiness from [Population] [in all non-occupied cities]"],
+		"requiredTech": "Banking",
+		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+	},
+	{
+	    "name": "Sanctuary of Surasthana",
+		"culture": 1,
+		"science": 5,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"replaces": "Taj Mahal",
+		"uniqueTo": "Sumeru",
+		"requiredTech": "Architecture",
+		"quote": "The forest will remember. No good thing ever fades away. All pains will become the nourishment of something beautiful...' - Rabindranath Tagore"
+	},	
+	{
+		"name": "Local Pyramid",
+		"replaces": "Temple",
+		"uniqueTo": "Egypt",
+		"maintenance": 0,
+		"uniques": ["[+100]% Gold given to enemy if city is captured"],
+		"faith": 2,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
 	},
 ]
