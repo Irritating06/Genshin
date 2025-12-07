@@ -37,7 +37,7 @@
 	},
 	{
         "name": "Maison Gardiennage",
-        "cost": 160,
+        "cost": 170,
 		"replaces": "Constabulary",
 		"uniqueTo": "Fontaine",
         "maintenance": 1,
@@ -49,7 +49,7 @@
 	{
 		"name": "Aquabus",
 		"uniqueTo": "Fontaine",
-		"cost": 120,
+		"cost": 130,
 		"culture": 2,
 		"food": 4,
 		"specialistSlots": {"Engineer": 1},
@@ -190,4 +190,36 @@
 		"requiredTech": "Architecture",
 		"quote": "This is a place where the god's gaze does not fall. -Columbina"
 	},
+	{
+		"name": "Mikage Furnace",
+		"uniqueTo": "Inazuma",
+		"replaces": "Ironworks",
+		"cost": 130,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "[+2 Production] from [Iron Ore] tiles [in this city]"]
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Publishing House",
+		"uniqueTo": "Inazuma",
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"happieness": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Golden House",
+		"uniqueTo": "Liyue",
+		"replaces": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Bronze"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+3 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+1 Gold] from [Bronze] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	
 ]
