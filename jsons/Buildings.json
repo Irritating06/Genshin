@@ -92,6 +92,16 @@
 		"requiredTech": "Philosophy"
 	},
 	{
+		"name": "Jade Chamber",
+		"uniqueTo": "Liyue",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+        "uniques": ["[+2 Gold] per [2] population [in this city]"],
+		"requiredBuilding": "Guilds",
+		"requiredTech": "Banking"
+	},
+	{
 		"name": "Favonius Quarters",
 		"replaces": "Castle",
 		"uniqueTo": "Mondstadt",
