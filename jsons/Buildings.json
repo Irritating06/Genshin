@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Perfected Windmill",
+		"name": "Perfected Windmill", 
 		"replaces": "Windmill",
 		"uniqueTo": "Mondstadt",
 		"cost": 260,
